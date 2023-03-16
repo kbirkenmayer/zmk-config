@@ -12,9 +12,19 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        layer_3 {
             bindings = <&tog 3>;
             key-positions = <40 35>;
+        };
+
+        delete {
+            bindings = <&kp DEL>;
+            key-positions = <11 10>;
+        };
+
+        new_combo {
+            bindings = <&kp LALT>;
+            key-positions = <16 15>;
         };
     };
 
